@@ -277,6 +277,10 @@ public class SourceRDD {
       return 41 * (41 + rddId) + index;
     }
 
+    public boolean org$apache$spark$Partition$$super$equals(java.lang.Object any) {
+      return false;
+    }
+
     public Source<T> getSource() {
       return source;
     }
